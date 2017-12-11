@@ -31,6 +31,7 @@ public class IndexActivity extends AppCompatActivity {
         mViewPager = findViewById(R.id.vp_view);
         mTabLayout = findViewById(R.id.tabs);
 
+
 //      数据源FragmentList
         fragmentList = new ArrayList<>();
         fragmentList.add(new CommonFragment());
